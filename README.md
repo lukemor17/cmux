@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="./docs/assets/main-first-image.png" alt="cmux screenshot" width="900" />
+  <img src="main-first-image.png" alt="cmux screenshot" width="900" />
 </p>
 
 <p align="center">
