@@ -1,30 +1,16 @@
-import type { Metadata } from "next";
-import { DocsNav } from "./docs-nav";
 import { SiteHeader } from "../components/site-header";
 
-export const metadata: Metadata = {
-  title: {
-    template: "%s — cmux docs",
-    default: "cmux docs",
-  },
-  openGraph: {
-    siteName: "cmux",
-    type: "article",
-  },
-  alternates: {
-    canonical: "./",
-  },
-};
-
-export default function DocsLayout({
+export default function LegalLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <div className="min-h-screen">
-      <SiteHeader section="docs" />
-      <DocsNav>{children}</DocsNav>
+      <SiteHeader />
+      <main className="w-full max-w-6xl mx-auto px-6 py-10">
+        <div className="docs-content text-[15px]">{children}</div>
+      </main>
     </div>
   );
 }
