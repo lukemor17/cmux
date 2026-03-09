@@ -33,7 +33,7 @@
 Panes get a blue ring and tabs light up when coding agents need your attention
 </td>
 <td width="60%">
-<img src="./docs/assets/notification-rings.png" alt="Notification rings" width="100%" />
+<img src="notification-rings.png" alt="Notification rings" width="100%" />
 </td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ Panes get a blue ring and tabs light up when coding agents need your attention
 See all pending notifications in one place, jump to the most recent unread
 </td>
 <td width="60%">
-<img src="./docs/assets/sidebar-notification-badge.png" alt="Sidebar notification badge" width="100%" />
+<img src="sidebar-notification-badge.png" alt="Sidebar notification badge" width="100%" />
 </td>
 </tr>
 <tr>
@@ -51,7 +51,7 @@ See all pending notifications in one place, jump to the most recent unread
 Split a browser alongside your terminal with a scriptable API ported from <a href="https://github.com/vercel-labs/agent-browser">agent-browser</a>
 </td>
 <td width="60%">
-<img src="./docs/assets/built-in-browser.png" alt="Built-in browser" width="100%" />
+<img src="built-in-browser.png" alt="Built-in browser" width="100%" />
 </td>
 </tr>
 <tr>
@@ -60,7 +60,7 @@ Split a browser alongside your terminal with a scriptable API ported from <a hre
 Sidebar shows git branch, linked PR status/number, working directory, listening ports, and latest notification text. Split horizontally and vertically.
 </td>
 <td width="60%">
-<img src="./docs/assets/vertical-horizontal-tabs-and-splits.png" alt="Vertical tabs and split panes" width="100%" />
+<img src="vertical-horizontal-tabs-and-splits.png" alt="Vertical tabs and split panes" width="100%" />
 </td>
 </tr>
 </table>
@@ -75,7 +75,7 @@ Sidebar shows git branch, linked PR status/number, working directory, listening 
 ### DMG (recommended)
 
 <a href="https://github.com/manaflow-ai/cmux/releases/latest/download/cmux-macos.dmg">
-  <img src="./docs/assets/macos-badge.png" alt="Download cmux for macOS" width="180" />
+  <img src="/macos-badge.png" alt="Download cmux for macOS" width="180" />
 </a>
 
 Open the `.dmg` and drag cmux to your Applications folder. cmux auto-updates via Sparkle, so you only need to download once.
@@ -237,7 +237,7 @@ cmux does **not** restore live process state inside terminal apps. For example, 
 
 Ways to get involved:
 
-- Follow us on X for updates [@manaflowai](https://x.com/manaflowai), [@lawrencecchen](https://x.com/lawrencecchen), and [@austinywang](https://x.com/austinywang)
+- Follow us on X for updates [@BryanFrontend](https://x.com/BryanFrontend), [@lawrencecchen](https://x.com/lawrencecchen), and [@austinywang](https://x.com/austinywang)
 - Join the conversation on [Discord](https://discord.gg/xsgFEVrWCZ)
 - Create and participate in [GitHub issues](https://github.com/manaflow-ai/cmux/issues) and [discussions](https://github.com/manaflow-ai/cmux/discussions)
 - Let us know what you're building with cmux
